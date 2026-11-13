@@ -67,3 +67,19 @@ Once all tests are passing and working code is pushed to the GitHub main branch,
 The application passes all test suites.
 * Get json data
 * Convert to Json
+
+## Completed Functionality
+
+Implemented a reusable GetRequester class that retrieves remote data using HTTP GET requests. The get_response_body method returns the response body as bytes, and load_json converts it into Python lists and dictionaries.
+
+## Testing
+
+Run the tests with:
+
+```bash
+pipenv run pytest
+```
+
+Both tests passed using Python 3.8.13.
+
+![Passing test results](images/tests-passed.png)
